@@ -144,12 +144,19 @@
                <div id=social><a href=http://github.com/jonnymaceachern target=_blank><span class=icon-github></span></a> <a href=skype:jonny.maceachern?chat><span class=icon-skype></span></a> <a href=http://ca.linkedin.com/in/jonnymaceachern target=_blank><span class=icon-linkedin></span></a> <a href=mailto:info@jonny.me><span class=icon-email></span></a></div>
             </div>
             <div class=span8 id=contact>
-               <form action=https://jonny.me/mailer.php id=contact-form method=post name=contact-form>
+             <!--  <form action=https://jonny.me/mailer.php id=contact-form method=post name=contact-form>
                   <div class=buffer-bottom><input type=text name=name placeholder=Name required id=field1> <input type=email name=email placeholder=Email required> <input type=text name=phone placeholder=Phone required></div>
                   <div class=buffer-bottom><textarea class=message name=message placeholder=Message required rows=6></textarea></div>
                   <span id=submit-response></span>
                   <div class=pull-right><input type=submit class=button value=send></div>
-               </form>
+               </form>-->
+			   
+			   <form method="POST" action="http://formspree.io/danw5050@gmail.com">
+				  <input type="email" name="email" placeholder="Your email">
+				  <textarea name="message" placeholder="Your message"></textarea>
+				   <div class=pull-right><button type="submit" class=button>Send</button></div>
+				</form>
+
             </div>
          </div>
       </div>
