@@ -27,7 +27,9 @@ $(function() {
             }
         ], {
             container: '#blueimp-image-carousel',
-            carousel: true
+            carousel: true,
+			slideshowInterval: 2500,
+			fullScreen: true
         })
 		
 		 blueimp.Gallery([{
@@ -44,8 +46,12 @@ $(function() {
             }
         ], {
             container: '#blueimp-image-carousel2',
-            carousel: true
+            carousel: true,
+			slideshowInterval: 2500,
+			 fullScreen: true
         })
+		
+		
     
 
 })
