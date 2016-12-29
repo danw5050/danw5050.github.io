@@ -26,7 +26,7 @@ $(function() {
         ], {
             container: '#hack-lassonde',
             carousel: true,
-			fullScreen: true
+			startSlideshow: false
         })
 		
 		 blueimp.Gallery([{
@@ -41,8 +41,7 @@ $(function() {
             }
         ], {
             container: '#blueimp-image-carousel2',
-            carousel: true,
-			 fullScreen: true
+            carousel: true
         })
 		
 		
@@ -59,8 +58,7 @@ $(function() {
             }
         ], {
             container: '#blueimp-image-carousel3',
-            carousel: true,
-			 fullScreen: true
+            carousel: true
         })
 		
 		
