@@ -14,21 +14,18 @@ $(function() {
   
             // Initialize the Gallery as image carousel:
         blueimp.Gallery([{
-                title: 'Banana',
-                href: 'http://danielw.me/img/tweetmap.jpg',
+                title: 'The Kinect Controlled Robot',
+                href: 'http://danielw.me/img/hacklassonde2.jpg',
                 type: 'image/jpeg',
-                thumbnail: 'http://danielw.me/img/tweetmap.jpg'
             },
             {
-                title: 'Apple',
-                href: 'http://danielw.me/img/tweetmap.jpg',
+                title: 'Intense hacking in progress',
+                href: 'http://danielw.me/img/hacklassonde.jpg',
                 type: 'image/jpeg',
-                thumbnail: 'http://danielw.me/img/tweetmap.jpg'
             }
         ], {
-            container: '#blueimp-image-carousel',
+            container: '#hack-lassonde',
             carousel: true,
-			slideshowInterval: 2500,
 			fullScreen: true
         })
 		
@@ -36,18 +33,33 @@ $(function() {
                 title: 'Banana',
                 href: 'http://danielw.me/img/thephonelady.jpg',
                 type: 'image/jpeg',
-                thumbnail: 'http://danielw.me/img/thephonelady.jpg'
             },
             {
                 title: 'Apple',
                 href: 'http://danielw.me/img/thephonelady.jpg',
                 type: 'image/jpeg',
-                thumbnail: 'http://danielw.me/img/thephonelady.jpg'
             }
         ], {
             container: '#blueimp-image-carousel2',
             carousel: true,
-			slideshowInterval: 2500,
+			 fullScreen: true
+        })
+		
+		
+		
+		 blueimp.Gallery([{
+                title: 'Banana',
+                href: 'http://danielw.me/img/thephonelady.jpg',
+                type: 'image/jpeg',
+            },
+            {
+                title: 'Apple',
+                href: 'http://danielw.me/img/thephonelady.jpg',
+                type: 'image/jpeg',
+            }
+        ], {
+            container: '#blueimp-image-carousel3',
+            carousel: true,
 			 fullScreen: true
         })
 		

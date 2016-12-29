@@ -24,6 +24,16 @@
 
 
 <body class="cf index" id=top>
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8MN8B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <header class=header-container>
       <img alt=bg src=img/homeslider.jpg id=bg-cover>
@@ -45,7 +55,7 @@
                      <li><a href=#projects data-nav=projects>PROJECTS</a></li>
                      <li><a href=#contact data-nav=contact>CONTACT</a></li>
                   </ul>
-                  <a href=# class=hamburger id=hamburger></a>
+                  <!--<a href=# class=hamburger id=hamburger></a>-->
                </nav>
             </div>
          </div>
@@ -56,8 +66,8 @@
          <div class=container>
             <div class=buffer-top id=hero>
                <h1 class=fadein-fast>A portfolio of my work.</h1>
-               <p class=fadein-fast>I am a computer engineer currently studying at the University of Waterloo. I enjoy working on projects where software and hardware technologies work together. You can get in touch with me <a href=#contact>here</a>.</p>
-               <div class=callToAction><a href=http://goo.gl/forms/gYi9a11a7U target=_blank class="btn btn-freelance">I need a website<span class=icon-chevron-right></span></a> <a href=http://danielw.me/DanielWeisbergResume.pdf target=_blank class="btn btn-hire">I'm looking to hire<span class=icon-chevron-right></span></a></div>
+               <p class=fadein-fast>I am a computer engineer currently studying at the University of Waterloo. I enjoy working on projects where software and hardware technologies work together. I am also an avid hackathon attender and am very involved in my school's entrepreneurial culture. You can get in touch with me <a href=#contact>here</a>.</p>
+               <div class=callToAction><a href=#contact class="btn btn-freelance">Get in touch<span class=icon-chevron-right></span></a> <a href=http://danielw.me/DanielWeisbergResume.pdf target=_blank class="btn btn-hire">I'm looking to hire<span class=icon-chevron-right></span></a></div>
             </div>
          </div>
       </div>
@@ -150,10 +160,80 @@
             <div class=container>
                <div class=center>
                   <div class=center>
-                     <div class=client><img alt="Atlantic Exworks" src=img/clients/atlanticexworks.png class="grayscale client-fade"></div>
-                     <div class=client><img alt="Herder Holiday Homes" src=img/clients/herderholidayhomes.png class="grayscale client-fade"></div>
-                     <div class=client><img alt="Viva Group" src=img/clients/vivagroup.png class=grayscale ></div>
-                     <div class=client><img alt="Celtic Shores Coastal Trail" src=img/clients/celticshores.png class=grayscale></div>
+                    <div id="pictureCollection">
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Banana">
+							<img src="img/clients/atlanticexworks.png" alt="Banana">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Apple">
+							<img src="img/clients/atlanticexworks.png" alt="Apple">
+						</a>
+						<a href="img/clients/atlanticexworks.png" title="Orange">
+							<img src="img/clients/atlanticexworks.png" alt="Orange">
+						</a>
+					</div>
                   </div>
                </div>
             </div>
@@ -167,16 +247,35 @@
          </div>
       </div>
    </main>
+   
+				
+				
+				  
+				  
+   
    <div id=footer>
       <div class=row>
          <div class=container>
             <div class="center span4">
                <img alt=profile src=img/profile.png>
-               <div class=details><a href=tel:9027197079 class=details-small>+1 (902) 719-7079</a></div>
-               <div id=social><a href=http://github.com/jonnymaceachern target=_blank><span class=icon-github></span></a> <a href=skype:jonny.maceachern?chat><span class=icon-skype></span></a> <a href=http://ca.linkedin.com/in/jonnymaceachern target=_blank><span class=icon-linkedin></span></a> <a href=mailto:info@jonny.me><span class=icon-email></span></a></div>
+               <div class=details><a href=tel:2899953333 class=details-small>(289) 995-3333</a></div>
+               <div id=social>
+			   <!--<a href=http://github.com/ target=_blank>
+			   <span class=icon-github>
+			   </span></a>--> 
+			   <a href=skype:danw_wberg?chat>
+			   <span class=icon-skype></span></a>
+			   
+			   <a href=http://ca.linkedin.com/in/weisbergdaniel target=_blank>
+			   <span class=icon-linkedin></span></a>
+			   
+			   <a href=mailto:contact@danielw.me>
+			   <span class=icon-email></span>
+			   </a>
+			   </div>
             </div>
             <div class=span8 id=contact>
-             <!--  <form action=https://jonny.me/mailer.php id=contact-form method=post name=contact-form>
+             <!--  <form action=https://.me/mailer.php id=contact-form method=post name=contact-form>
                   <div class=buffer-bottom><input type=text name=name placeholder=Name required id=field1>
 				  <input type=email name=email placeholder=Email required> 
 				  <input type=text name=phone placeholder=Phone required></div>
@@ -200,9 +299,9 @@
    </div>
    <div class=center id=links>
       <ul>
-         <li>&copy; JONNY.ME 2013 - 2016</li>
+         <li>&copy; DANIELW.ME 2016</li>
          <li><a href=http://danielw.me/DanielWeisbergResume.pdf target=_blank>VIEW RESUME</a></li>
-         <li><a href=http://github.com/jonnymaceachern target=_blank>GITHUB</a></li>
+         <li><a href=http://github.com/ target=_blank>GITHUB</a></li>
       </ul>
    </div>
    
@@ -221,7 +320,16 @@
 <script src="Gallery/js/demo/demo.js"></script>
 
 	   
-   
+   <script>
+document.getElementById('pictureCollection').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
    
    <script src=jquery/jquery-latest.min.js></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTByFVEOXb62eQ6vqiJiuRHY3FE8XkXg&v=3.exp&amp;sensor=false"></script><script src=dist/scripts.min.js></script>
 </body>
