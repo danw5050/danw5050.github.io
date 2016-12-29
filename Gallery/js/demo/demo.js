@@ -26,7 +26,8 @@ $(function() {
         ], {
             container: '#hack-lassonde',
             carousel: true,
-			startSlideshow: false
+			startSlideshow: true
+			
         })
 		
 		 blueimp.Gallery([{
