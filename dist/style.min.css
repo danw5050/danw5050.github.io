@@ -244,7 +244,8 @@ h3 a {
     border-radius: 4px;
     font-size: 12px;
     background: #f04;
-    padding: 4px 9px
+    padding: 4px 9px;
+	white-space: nowrap;
 }
 .default {
     position: relative!important
@@ -387,10 +388,10 @@ h3 a {
     color: #6f6464
 }
 .screenshot {
-    width: 54%
+    width: 45%
 }
 .description-container {
-    width: 45%
+    width: 54%
 }
 .fixed {
     width: 100%;

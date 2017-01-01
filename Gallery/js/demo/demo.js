@@ -42,7 +42,8 @@ $(function() {
             }
         ], {
             container: '#blueimp-image-carousel2',
-            carousel: true
+            carousel: true,
+			fullScreen:true
         })
 		
 		

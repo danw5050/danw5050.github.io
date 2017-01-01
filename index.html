@@ -77,7 +77,7 @@
                <div class="cf portfolio-item">
                   <div class="portfolio-col screenshot">
 				  
-				  <div id="hack-lassonde" class="blueimp-gallery blueimp-gallery-carousel">
+				  <div id="hack-lassonde" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
 					<div class="slides"></div>
 					<h3 class="title"></h3>
 					<a class="prev">‹</a>
@@ -90,18 +90,23 @@
                   <div class="portfolio-col description-container">
                      <div class=cf>
                         <div class=project-title>
-                           <h3><a href=http://apps.jonny.me/tweetmap target=_blank>Tweetmap</a></h3>
+                           <h3><a>RoamBot - Hack Lassonde</a></h3>
                         </div>
                        
                      </div>
-                     <p class=description>Tweetmap is a web application that lets users view who is tweeting nearby. Using geocode data, each tweet is pinned on a map where it originated. Although currently a work in progress, it will offer the option to filter by hashtags, date, and location.</p>
+                     <p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The Kinect attached to my laptop which identified the gesture using the C# Kinect Lib. The computer sent the robot's command over WiFi via UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive. Simultaneously, the Android used a 3rd party app to stream video from the back camera to show the front of the robot. This allowed me to control the robot from anywhere within the building where the WiFi reached. I managed to get 1st Place and worked independently.</p>
                      <ul class=skills>
-                        <li>Google Maps API v3</li>
-                        <li>Twitter Search API 1.1</li>
-                        <li>HTML5/CSS3</li>
-                        <li>jQuery/AJAX</li>
-                        <li>Bootstrap 3</li>
-                        <li>PHP</li>
+
+                        <li >Kinect API</li>
+                        <li>Arduino</li>
+						<li>Bluetooth API (C# & Android Java)</li>
+						<li>UDP Protocol</li>
+						<li>C#</li>
+                 
+						<li>Java</li>
+                        <li>C++</li>
+                        
+                        <li>Electrical Circuits</li>
                      </ul>
                   </div>
                </div>
@@ -114,7 +119,7 @@
                   <div class="portfolio-col screenshot">
 				  
 				  
-				  <div id="blueimp-image-carousel2" class="blueimp-gallery blueimp-gallery-carousel">
+				  <div id="blueimp-image-carousel2" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
 					<div class="slides"></div>
 					<h3 class="title"></h3>
 					<a class="prev">‹</a>
@@ -323,14 +328,20 @@
 
 	   
    <script>
+  
 document.getElementById('pictureCollection').onclick = function (event) {
     event = event || window.event;
     var target = event.target || event.srcElement,
         link = target.src ? target.parentNode : target,
         options = {index: link, event: event},
         links = this.getElementsByTagName('a');
+	
+	
+	  
     blueimp.Gallery(links, options);
 };
+
+
 </script>
    
    <script src=jquery/jquery-latest.min.js></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTByFVEOXb62eQ6vqiJiuRHY3FE8XkXg&v=3.exp&amp;sensor=false"></script><script src=dist/scripts.min.js></script>
