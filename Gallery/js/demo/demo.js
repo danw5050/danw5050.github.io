@@ -108,6 +108,86 @@ $(function() {
         })
 		
 		
+		
+				 blueimp.Gallery([{
+               title: 'Game Play video',
+                href: 'http://2.sendvid.com/ffhcaxsx.mp4',
+					type: 'video/mp4',
+				poster: 'img/crypt6.jpg'
+            }
+			,
+						{
+                title: 'Home screen',
+                href: 'img/crypt1.jpg',
+                type: 'image/jpeg'
+            }
+			,
+						{
+                title: 'Level picker',
+                href: 'img/crypt2.jpg',
+                type: 'image/jpeg'
+            }
+			,
+            {
+                title: 'Game Play',
+                href: 'img/crypt3.jpg',
+                type: 'image/jpeg'
+            },
+			{
+                title: 'Game Play',
+                href: 'img/crypt4.jpg',
+                type: 'image/jpeg'
+            },
+						{
+                title: 'Game Play',
+                href: 'img/crypt5.jpg',
+                type: 'image/jpeg'
+            }
+			
+        ], {
+            container: '#blueimp-image-carousel4',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
     
+	
+	 blueimp.Gallery([
+						{
+                title: 'Home screen',
+                href: 'img/tt1.png',
+                type: 'image/png'
+            }
+			,
+						{
+                title: 'Level picker',
+                href: 'img/tt2.png',
+                type: 'image/png'
+            }
+			,
+            {
+                title: 'Game Play',
+                href: 'img/tt3.png',
+                type: 'image/png'
+            },
+			{
+                title: 'Game Play',
+                href: 'img/tt4.png',
+                type: 'image/png'
+            },
+						{
+                title: 'Game Play',
+                href: 'img/tt5.png',
+                type: 'image/png'
+            }
+			
+        ], {
+            container: '#blueimp-image-carousel5',
+            carousel: true,
+			preloadRange: 2
+        })
+	
+	
 
 })
