@@ -75,17 +75,31 @@ $(function() {
 		
 		
 		 blueimp.Gallery([{
-                title: 'Video of pedestrian light',
-                href: 'https://www.youtube.com/watch?v=05UNmnMI1aM',
-				youTubeVideoIdProperty: '05UNmnMI1aM',
-                type: 'text/html',
-				youtube: '05UNmnMI1aM',
-				poster: 'https://img.youtube.com/vi/05UNmnMI1aM/maxresdefault.jpg'
+               title: 'Traffic light in action',
+                href: 'https://i.imgur.com/yRLkOb6.mp4',
+                type: 'video/mp4',
+				poster: 'https://i.imgur.com/m8zSVtM.jpg'
             },
             {
-                title: 'Apple',
-                href: 'http://danielw.me/img/finhack5.jpg',
-                type: 'image/jpeg',
+                title: 'Opening up my traffic light',
+                href: 'https://i.imgur.com/cy4qx3x.jpg',
+                type: 'image/jpeg'
+            },
+			{
+                title: 'Processor + Relay + Bluetooth',
+                href: 'https://i.imgur.com/dlbC1pa.jpg',
+                type: 'image/jpeg'
+            },
+						{
+                title: 'AC to DC converter for electronics',
+                href: 'https://i.imgur.com/DiHPyFj.jpg',
+                type: 'image/jpeg'
+            }
+			,
+						{
+                title: 'Cramming everything into a partition',
+                href: 'https://i.imgur.com/vqcumwh.jpg',
+                type: 'image/jpeg'
             }
         ], {
             container: '#blueimp-image-carousel3',
