@@ -111,8 +111,8 @@ $(function() {
 		
 				 blueimp.Gallery([{
                title: 'Game Play video',
-                href: 'http://2.sendvid.com/ffhcaxsx.mp4',
-					type: 'video/mp4',
+                href: 'https://2.sendvid.com/ffhcaxsx.mp4',
+				type: 'video/mp4',
 				poster: 'img/crypt6.jpg'
             }
 			,
