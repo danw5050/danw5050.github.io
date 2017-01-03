@@ -111,7 +111,7 @@ $(function() {
 		
 				 blueimp.Gallery([{
                title: 'Game Play video',
-                href: 'http://dc692.4shared.com/img/XuiW51wLce/d7c9956d/dlink__2Fdownload_2FXuiW51wLce_3Fsbsr_3D2a94d21ef57b05869b5de39b0e0c9868994_26lgfp_3D1000_26dsid_3Dhhcogm.5e07db7616889d78e335bf29424d2275/preview.mp4',
+                href: 'https://dl.dropboxusercontent.com/s/d447a4dm2eyr52j/Crypt%20Raider%20Mummy%27s%20Revenge%20Android%20App.mp4',
 				type: 'video/mp4',
 				poster: 'img/crypt6.jpg'
             }
