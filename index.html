@@ -65,7 +65,7 @@
       <div id=row-hero>
          <div class=container>
             <div class=buffer-top id=hero>
-               <h1 class=fadein-fast>A portfolio of my work.</h1>
+               <h1 class=fadein-fast>A collection of my work.</h1>
                <p class=fadein-fast>I am a computer engineer currently studying at the University of Waterloo. I enjoy working on projects where software and hardware technologies work together. I am also an avid hackathon attender and am very involved in my school's entrepreneurial culture. You can get in touch with me <a href=#contact>here</a>.</p>
                <div class=callToAction><a href=#contact class="btn btn-freelance">Get in touch<span class=icon-chevron-right></span></a> <a href=http://danielw.me/DanielWeisbergResume.pdf target=_blank class="btn btn-hire">I'm looking to hire<span class=icon-chevron-right></span></a></div>
             </div>
@@ -90,12 +90,15 @@
                   <div class="portfolio-col description-container">
                      <div class=cf>
                         <div class=project-title>
-                           <h3><a>RoamBot - Hack Lassonde</a></h3>
+                           <h3><a>RoamBot - Hack Lassonde<br>(1st Place)</a></h3>
                         </div>
                        
                      </div>
-                     <p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The Kinect attached to my laptop which identified the gesture using the C# Kinect Lib. The computer sent the robot's command over WiFi via UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive. Simultaneously, the Android used a 3rd party app to stream video from the back camera to show the front of the robot. This allowed me to control the robot from anywhere within the building where the WiFi reached. I managed to get 1st Place and worked independently.</p>
-                     <ul class=skills>
+                     <!--<p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The Kinect attached to my laptop which identified the gesture using the C# Kinect Lib. The computer sent the robot's command over WiFi via UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive. Simultaneously, the Android used a 3rd party app to stream video from the back camera to show the front of the robot. This allowed me to control the robot from anywhere within the building where the WiFi reached. I managed to get 1st Place and worked independently.</p>
+                     -->
+					 <p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The computer sent the Kinect's command using UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive while also streaming video of what the robot sees back to the computer (video was 3rd party). Worked independently.</p>
+                     
+					 <ul class=skills>
 
                         <li >Kinect API</li>
                         <li>Arduino</li>
@@ -133,13 +136,21 @@
 
 
                   <div class="portfolio-col description-container">
-                     <h3><a href=http://thephonelady.com/ target=_blank>The Phone Lady</a></h3>
-                     <p class=description>The Phone Lady has spent 27 years analyzing the psychology of a phone call, information she now shares with entrepreneurs, not-for-profits, corporations and government departments in her mission to improve telephone interactions between businesses and clients.</p>
-                     <ul class=skills>
-                        <li>Custom WordPress Theme Development</li>
-                        <li>jQuery</li>
-                        <li>HTML5/CSS3</li>
-                        <li>Responsive Layout</li>
+                     <h3><a href=https://americas.thecisconetwork.com/site/content/lang/en/id/6758?utm_content=bufferf90cf&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer  target=_blank>TD Strip - Finhacks<br>(1st Place)</a></h3>
+                     <p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. Users used our chatbot to develop a savings goal which was then displayed on an Apple Smartwatch, Website and the hardware "Strip" with LEDs. Tapping the Android phone to the NFC chip on the Strip would prompt the Strip to blink a pattern and verbally say your current savings balance using the phone inside of it. When reaching your goal, the Strip verbally congratulates and displays a unique LED pattern. Worked with 5 other members. Focused on hardware, server-hardware communication, text to speech.<ul class=skills>
+                    
+					 <!--<p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech<ul class=skills>
+                       --> <li>Arduino</li>
+						<li>Esp8266 WiFi Chip</li>
+						<li>Firebase</li>
+                        <li>Text-to-Speech API</li>
+
+						<li>NFC API</li>
+						<li>NFC Tag</li>
+						<li>UDP</li>
+						<li>Java</li>
+						<li>C++</li>
+						<li>Electrical Circuitry</li>
                      </ul>
                   </div>
                </div>

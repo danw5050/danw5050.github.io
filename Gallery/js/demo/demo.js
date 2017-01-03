@@ -31,13 +31,38 @@ $(function() {
         })
 		
 		 blueimp.Gallery([{
-                title: 'Banana',
-                href: 'http://danielw.me/img/thephonelady.jpg',
+                title: 'A picture of the TD Strip hardware',
+                href: 'http://danielw.me/img/finhack.jpg',
                 type: 'image/jpeg',
             },
             {
-                title: 'Apple',
-                href: 'http://danielw.me/img/thephonelady.jpg',
+                title: 'NFC Tag',
+                href: 'http://danielw.me/img/finhack7.jpg',
+                type: 'image/jpeg',
+            },
+			 {
+                title: 'Showing progress',
+                href: 'http://danielw.me/img/finhack2.jpg',
+                type: 'image/jpeg',
+            },
+			 {
+                title: 'The website',
+                href: 'http://danielw.me/img/finhack6.jpg',
+                type: 'image/jpeg',
+            },
+			 {
+                title: 'The team',
+                href: 'http://danielw.me/img/finhack3.jpg',
+                type: 'image/jpeg',
+            },
+			 {
+                title: 'Preparing to present',
+                href: 'http://danielw.me/img/finhack4.jpg',
+                type: 'image/jpeg',
+            },
+			 {
+                title: 'Intense hacking in progress',
+                href: 'http://danielw.me/img/finhack5.jpg',
                 type: 'image/jpeg',
             }
         ], {
