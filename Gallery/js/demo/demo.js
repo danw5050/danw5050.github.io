@@ -47,8 +47,8 @@ $(function() {
             },
 			 {
                 title: 'The website',
-                href: 'http://danielw.me/img/finhack6.jpg',
-                type: 'image/jpeg',
+                href: 'http://danielw.me/img/finhack6.png',
+                type: 'image/png',
             },
 			 {
                 title: 'The team',
