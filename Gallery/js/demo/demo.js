@@ -26,7 +26,8 @@ $(function() {
         ], {
             container: '#hack-lassonde',
             carousel: true,
-			startSlideshow: true
+			startSlideshow: true,
+			preloadRange: 2
 			
         })
 		
@@ -68,24 +69,28 @@ $(function() {
         ], {
             container: '#blueimp-image-carousel2',
             carousel: true,
-			fullScreen:true
+			preloadRange: 2
         })
 		
 		
 		
 		 blueimp.Gallery([{
-                title: 'Banana',
-                href: 'http://danielw.me/img/thephonelady.jpg',
-                type: 'image/jpeg',
+                title: 'Video of pedestrian light',
+                href: 'https://www.youtube.com/watch?v=05UNmnMI1aM',
+				youTubeVideoIdProperty: '05UNmnMI1aM',
+                type: 'text/html',
+				youtube: '05UNmnMI1aM',
+				poster: 'https://img.youtube.com/vi/05UNmnMI1aM/maxresdefault.jpg'
             },
             {
                 title: 'Apple',
-                href: 'http://danielw.me/img/thephonelady.jpg',
+                href: 'http://danielw.me/img/finhack5.jpg',
                 type: 'image/jpeg',
             }
         ], {
             container: '#blueimp-image-carousel3',
-            carousel: true
+            carousel: true,
+			preloadRange: 2
         })
 		
 		

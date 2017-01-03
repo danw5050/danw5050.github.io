@@ -68,7 +68,7 @@
     loadAPI: function () {
       var that = this
       var onYouTubeIframeAPIReady = window.onYouTubeIframeAPIReady
-      var apiUrl = '//www.youtube.com/iframe_api'
+      var apiUrl = 'https://www.youtube.com/iframe_api'
       var scriptTags = document.getElementsByTagName('script')
       var i = scriptTags.length
       var scriptTag
