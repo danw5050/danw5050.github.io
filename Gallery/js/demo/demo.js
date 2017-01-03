@@ -155,35 +155,57 @@ $(function() {
 	
 	 blueimp.Gallery([
 						{
-                title: 'Home screen',
+                title: 'Building manager screen',
                 href: 'img/tt1.png',
                 type: 'image/png'
             }
 			,
 						{
-                title: 'Level picker',
+                title: 'Selecting a property for a task',
                 href: 'img/tt2.png',
                 type: 'image/png'
             }
 			,
             {
-                title: 'Game Play',
+                title: 'Selecting a service',
                 href: 'img/tt3.png',
                 type: 'image/png'
             },
 			{
-                title: 'Game Play',
+                title: 'Selecting a contractor',
                 href: 'img/tt4.png',
                 type: 'image/png'
             },
 						{
-                title: 'Game Play',
+                title: 'Contractor screen',
                 href: 'img/tt5.png',
                 type: 'image/png'
             }
 			
         ], {
             container: '#blueimp-image-carousel5',
+            carousel: true,
+			preloadRange: 2
+        })
+	
+	
+	
+	
+	
+	 blueimp.Gallery([
+						{
+                title: 'Creating a level',
+                href: 'img/gen.png',
+                type: 'image/png'
+            }
+			,
+						{
+                title: 'Export file',
+                href: 'img/gen2.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#blueimp-image-carousel6',
             carousel: true,
 			preloadRange: 2
         })
