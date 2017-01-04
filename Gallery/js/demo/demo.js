@@ -211,32 +211,6 @@ $(function() {
         })
 		
 		
-		 blueimp.Gallery([
-		 {
-               title: 'Demo video',
-                href: 'https://dl.dropboxusercontent.com/s/bvobl9tvnlmtcci/Quickstart%20Apps.mp4?dl=0',
-				type: 'video/mp4',
-				poster: 'img/quickstart1.png'
-            },
-			
-			{
-                title: 'Creating notification',
-                href: 'img/quickstart2.png',
-                type: 'image/png'
-            }
-			,
-			{
-                title: 'Quickstart notifications',
-                href: 'img/quickstart3.png',
-                type: 'image/png'
-            }
-        ], {
-            container: '#blueimp-image-carousel7',
-            carousel: true,
-			preloadRange: 2
-        })
-		
-		
 		
 		blueimp.Gallery([
 		 {
@@ -334,7 +308,7 @@ $(function() {
             },
 			
 			{
-                title: 'Creating notification',
+                title: 'Controlling the robot',
                 href: 'img/arm2.jpeg',
                 type: 'image/jpeg'
             }
