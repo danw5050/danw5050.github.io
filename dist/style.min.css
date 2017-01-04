@@ -247,6 +247,19 @@ h3 a {
     padding: 4px 9px;
 	white-space: nowrap;
 }
+
+.knowledge li {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    line-height: 32px;
+    display: inline;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #004;
+    padding: 4px 9px;
+	white-space: nowrap;
+}
+
 .default {
     position: relative!important
 }

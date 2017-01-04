@@ -209,7 +209,177 @@ $(function() {
             carousel: true,
 			preloadRange: 2
         })
+		
+		
+		 blueimp.Gallery([
+		 {
+               title: 'Demo video',
+                href: 'https://dl.dropboxusercontent.com/s/bvobl9tvnlmtcci/Quickstart%20Apps.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/quickstart1.png'
+            },
+			
+			{
+                title: 'Creating notification',
+                href: 'img/quickstart2.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Quickstart notifications',
+                href: 'img/quickstart3.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#blueimp-image-carousel7',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
+		
+		blueimp.Gallery([
+		 {
+               title: 'Demo video',
+                href: 'https://dl.dropboxusercontent.com/s/bvobl9tvnlmtcci/Quickstart%20Apps.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/quickstart1.png'
+            },
+			
+			{
+                title: 'Creating notification',
+                href: 'img/quickstart2.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Quickstart notifications',
+                href: 'img/quickstart3.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#blueimp-image-carousel7',
+            carousel: true,
+			preloadRange: 2
+        })
 	
 	
+			blueimp.Gallery([
+		 {
+               title: 'Demo video',
+                href: 'https://dl.dropboxusercontent.com/s/z0abwznbpv04xgs/Speech%20to%20TextClipboard%20Pro%20Version.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/typer.png'
+            }
+        ], {
+            container: '#blueimp-image-carousel8',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
+		
+		
+		blueimp.Gallery([
+		 {
+               title: '',
+                href: 'https://dl.dropboxusercontent.com/s/2251mm7l4fe5nvb/Swiper%20no%20Swiping%20%28Picture%29%20Android%20App.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/swiper.png'
+            }
+			
+        ], {
+            container: '#blueimp-image-carousel9',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
+				blueimp.Gallery([
+		 {
+               title: 'Demo video',
+                href: 'https://dl.dropboxusercontent.com/s/by5jl0dki6inrnr/Touchless%20%20Android%20App.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/touchless1.png'
+            },
+			
+			{
+                title: 'Creating notification',
+                href: 'img/touchless3.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Quickstart notifications',
+                href: 'img/touchless4.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#blueimp-image-carousel10',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
+		
+		
+		
+		
+		blueimp.Gallery([
+		 {
+               title: 'Demo video',
+                href: 'https://dl.dropboxusercontent.com/s/4tr57vvg95pfzwj/Robotic%20Arm%20Demo.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/arm1.jpeg'
+            },
+			
+			{
+                title: 'Creating notification',
+                href: 'img/arm2.jpeg',
+                type: 'image/jpeg'
+            }
+			
+        ], {
+            container: '#blueimp-image-carousel11',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
+		
+		
+		
+		
+		
+		blueimp.Gallery([
+		 {
+               title: 'Velocity Pitch',
+                href: 'https://dl.dropboxusercontent.com/s/ycxdwvfgmtzdfvj/EZBot%20-%20Velocity%20Fund%20Finals%20%245K%20Fall%202015.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/ezbot4.png'
+            },
+			
+			{
+                title: 'Schematics',
+                href: 'img/ezbot1.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Printed PCB',
+                href: 'img/ezbot2.jpeg',
+                type: 'image/jpeg'
+            }
+			,
+			{
+                title: 'Android Software Homescreen',
+                href: 'img/ezbot3.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#blueimp-image-carousel12',
+            carousel: true,
+			preloadRange: 2
+        })
 
 })
