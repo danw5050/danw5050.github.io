@@ -355,5 +355,39 @@ $(function() {
             carousel: true,
 			preloadRange: 2
         })
+		
+		
+		
+		
+			blueimp.Gallery([
+		 {
+               title: 'ENVR Demo',
+                href: 'https://dl.dropboxusercontent.com/s/40h6u3o3v0xdpuz/ENVR%20Prototype%20Demo.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'http://envr.io/img/envr/ENVRv1.png'
+            },
+			
+			{
+                title: 'Rendering',
+                href: 'http://envr.io/img/envr/WithoutFront.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Rendering',
+                href: 'http://envr.io/img/envr/withoutIsometric.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Rendering',
+                href: 'http://envr.io/img/envr/withFrontTilt.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#blueimp-image-carousel13',
+            carousel: true,
+			preloadRange: 2
+        })
 
 })
