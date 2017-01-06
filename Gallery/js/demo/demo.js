@@ -396,31 +396,31 @@ $(function() {
 		blueimp.Gallery([	
 			{
                 title: 'Full view',
-                href: 'img/robotarm1.png',
+                href: 'img/roboarm1.png',
                 type: 'image/png'
             }
 			,
 			{
                 title: 'Turning mechanism',
-                href: 'img/robotarm3.jpg',
+                href: 'img/roboarm3.jpg',
                 type: 'image/jpg'
             }
 			,
 			{
                 title: 'Switch control system',
-                href: 'img/robotarm4.jpg',
+                href: 'img/roboarm4.jpg',
                 type: 'image/jpg'
             }
 			,
 			{
-                title: 'Switch control system',
-                href: 'img/robotarm6.jpg',
+                title: 'Fingers',
+                href: 'img/roboarm6.jpg',
                 type: 'image/jpg'
             }
 			,
 			{
                 title: 'Front view',
-                href: 'img/robotarm10.jpg',
+                href: 'img/roboarm10.jpg',
                 type: 'image/jpg'
             }
         ], {
