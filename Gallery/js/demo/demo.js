@@ -389,5 +389,44 @@ $(function() {
             carousel: true,
 			preloadRange: 2
         })
+		
+		
+		
+		
+		blueimp.Gallery([	
+			{
+                title: 'Full view',
+                href: 'img/robotarm1.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: 'Turning mechanism',
+                href: 'img/robotarm3.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Switch control system',
+                href: 'img/robotarm4.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Switch control system',
+                href: 'img/robotarm6.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Front view',
+                href: 'img/robotarm10.jpg',
+                type: 'image/jpg'
+            }
+        ], {
+            container: '#blueimp-image-carousel14',
+            carousel: true,
+			preloadRange: 2
+        })
 
 })
