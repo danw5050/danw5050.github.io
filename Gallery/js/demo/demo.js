@@ -402,19 +402,19 @@ $(function() {
 			,
 			{
                 title: 'Turning mechanism',
-                href: 'img/roboarm3.jpg',
+                href: 'img/roboarm3.JPG',
                 type: 'image/jpg'
             }
 			,
 			{
                 title: 'Switch control system',
-                href: 'img/roboarm4.jpg',
+                href: 'img/roboarm4.JPG',
                 type: 'image/jpg'
             }
 			,
 			{
                 title: 'Fingers',
-                href: 'img/roboarm6.jpg',
+                href: 'img/roboarm6.JPG',
                 type: 'image/jpg'
             }
 			,
