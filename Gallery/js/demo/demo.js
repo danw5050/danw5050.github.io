@@ -432,7 +432,7 @@ $(function() {
 		
 		blueimp.Gallery([	
 			{
-               title: 'ENVR Demo',
+               title: 'Door Opener Demo',
                 href: 'https://dl.dropboxusercontent.com/s/s6qdt8b1kl62s7n/Highschool%20DIY%20Automated%20Door%20%28Passkey%20and%20Camera%29.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/dooropener.png'
