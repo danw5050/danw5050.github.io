@@ -15,12 +15,12 @@ $(function() {
             // Initialize the Gallery as image carousel:
         blueimp.Gallery([{
                 title: 'The Kinect Controlled Robot',
-                href: 'http://danielw.me/img/hacklassonde2.jpg',
+                href: 'http://DanielWeisberg.com/img/hacklassonde2.jpg',
                 type: 'image/jpeg',
             },
             {
                 title: 'Intense hacking in progress',
-                href: 'http://danielw.me/img/hacklassonde.jpg',
+                href: 'http://DanielWeisberg.com/img/hacklassonde.jpg',
                 type: 'image/jpeg',
             }
         ], {
@@ -33,37 +33,37 @@ $(function() {
 		
 		 blueimp.Gallery([{
                 title: 'A picture of the TD Strip hardware',
-                href: 'http://danielw.me/img/finhack.jpg',
+                href: 'http://DanielWeisberg.com/img/finhack.jpg',
                 type: 'image/jpeg',
             },
             {
                 title: 'NFC Tag',
-                href: 'http://danielw.me/img/finhack7.jpg',
+                href: 'http://DanielWeisberg.com/img/finhack7.jpg',
                 type: 'image/jpeg',
             },
 			 {
                 title: 'Showing progress',
-                href: 'http://danielw.me/img/finhack2.jpg',
+                href: 'http://DanielWeisberg.com/img/finhack2.jpg',
                 type: 'image/jpeg',
             },
 			 {
                 title: 'The website',
-                href: 'http://danielw.me/img/finhack6.png',
+                href: 'http://DanielWeisberg.com/img/finhack6.png',
                 type: 'image/png',
             },
 			 {
                 title: 'The team',
-                href: 'http://danielw.me/img/finhack3.jpg',
+                href: 'http://DanielWeisberg.com/img/finhack3.jpg',
                 type: 'image/jpeg',
             },
 			 {
                 title: 'Preparing to present',
-                href: 'http://danielw.me/img/finhack4.jpg',
+                href: 'http://DanielWeisberg.com/img/finhack4.jpg',
                 type: 'image/jpeg',
             },
 			 {
                 title: 'Intense hacking in progress',
-                href: 'http://danielw.me/img/finhack5.jpg',
+                href: 'http://DanielWeisberg.com/img/finhack5.jpg',
                 type: 'image/jpeg',
             }
         ], {
