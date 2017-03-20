@@ -443,5 +443,48 @@ $(function() {
             carousel: true,
 			preloadRange: 2
         })
+		
+		
+		
+			blueimp.Gallery([	
+			{
+                title: 'Front view',
+                href: 'img/d1.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Front cover removed',
+                href: 'img/d2.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Pill dispensing mechanism',
+                href: 'img/d3.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Arduino & Bluetooth IC',
+                href: 'img/d4.jpg',
+                type: 'image/jpg'
+            }
+			,
+			{
+                title: 'Pill intake',
+                href: 'img/d5.jpg',
+                type: 'image/jpg'
+            },
+			{
+                title: 'Back of cover',
+                href: 'img/d6.jpg',
+                type: 'image/jpg'
+            }
+        ], {
+            container: '#dementiahack',
+            carousel: true,
+			preloadRange: 2
+        })
 
 })
