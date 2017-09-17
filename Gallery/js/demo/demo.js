@@ -486,5 +486,42 @@ $(function() {
             carousel: true,
 			preloadRange: 2
         })
+		
+		
+			blueimp.Gallery([	
+			{
+                title: '',
+                href: 'img/cutc1.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/cutc2.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/cutc3.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/cutc4.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/cutc5.png',
+                type: 'image/png'
+            }
+        ], {
+            container: '#cutc',
+            carousel: true,
+			preloadRange: 2
+        })
 
 })
