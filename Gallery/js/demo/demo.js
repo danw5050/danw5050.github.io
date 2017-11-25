@@ -429,6 +429,40 @@ $(function() {
 			preloadRange: 2
         })
 		
+		blueimp.Gallery([	
+			{
+                              title: 'Demo Video',
+                href: 'https://dl.dropboxusercontent.com/s/qkjfjnsdgso1obz/genesys%20emotion%20tracker%20%281%29.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/genesysdemo.png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/g1.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/g2.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/g3.png',
+                type: 'image/png'
+            }
+
+        ], {
+            container: '#hack-genesys',
+            carousel: true,
+			preloadRange: 2
+        })
+		
+		
+		
 		
 		blueimp.Gallery([	
 			{
