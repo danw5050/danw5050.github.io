@@ -384,6 +384,18 @@ $(function() {
                 href: 'http://envr.io/img/envr/withFrontTilt.png',
                 type: 'image/png'
             }
+						,
+			{
+                title: 'Soldering work',
+                href: 'img/envr1.jpg',
+                type: 'image/jpg'
+            }
+						,
+			{
+                title: 'Front of soldering work',
+                href: 'img/envr2.jpg',
+                type: 'image/jpg'
+            }
         ], {
             container: '#blueimp-image-carousel13',
             carousel: true,
