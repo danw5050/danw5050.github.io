@@ -38,13 +38,43 @@ $(function() {
 		
 		
 	  blueimp.Gallery([{
-                title: 'SeeMe project',
+                title: 'Hardware Sensor Front',
                 href: 'http://DanielWeisberg.com/img/seeme1.png',
                 type: 'image/png',
             },
             {
-                title: 'Intense hacking in progress',
+                title: 'Hardware Sensor Back',
                 href: 'http://DanielWeisberg.com/img/seeme2.png',
+                type: 'image/png',
+            }
+			,
+            {
+                title: 'Xamarin App Home',
+                href: 'http://DanielWeisberg.com/img/seeme7.png',
+                type: 'image/png',
+            }
+			,
+            {
+                title: 'Xamarin App Analytics Page',
+                href: 'http://DanielWeisberg.com/img/seeme8.png',
+                type: 'image/png',
+            }
+			,
+            {
+                title: 'Xamarin App History Page',
+                href: 'http://DanielWeisberg.com/img/seeme10.png',
+                type: 'image/png',
+            }
+			,
+            {
+                title: 'Xamarin App Settings Page',
+                href: 'http://DanielWeisberg.com/img/seeme11.png',
+                type: 'image/png',
+            }
+			,
+            {
+                title: 'Hardware Lab',
+                href: 'http://DanielWeisberg.com/img/seeme6.png',
                 type: 'image/png',
             }
         ], {
