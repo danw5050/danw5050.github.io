@@ -39,8 +39,9 @@ $(function() {
 		
 	  blueimp.Gallery([{
                 title: 'Hardware Sensor Front',
-                href: 'http://DanielWeisberg.com/img/seeme1.png',
-                type: 'image/png',
+                poster: 'img/seeme1.png',
+				href: 'https://dl.dropboxusercontent.com/s/mx127goq3n1guqc/video2.mp4',
+                type: 'video/mp4',
             },
             {
                 title: 'Hardware Sensor Back',
@@ -165,7 +166,7 @@ $(function() {
 		
 		
 		
-				 blueimp.Gallery([{
+			blueimp.Gallery([{
                title: 'Game Play video',
                 href: 'https://dl.dropboxusercontent.com/s/d447a4dm2eyr52j/Crypt%20Raider%20Mummy%27s%20Revenge%20Android%20App.mp4',
 				type: 'video/mp4',
