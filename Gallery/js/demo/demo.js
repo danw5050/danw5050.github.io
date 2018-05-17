@@ -31,6 +31,32 @@ $(function() {
 			
         })
 		
+		
+		
+		
+		
+		
+		
+	  blueimp.Gallery([{
+                title: 'SeeMe project',
+                href: 'http://DanielWeisberg.com/img/seeme1.png',
+                type: 'image/png',
+            },
+            {
+                title: 'Intense hacking in progress',
+                href: 'http://DanielWeisberg.com/img/seeme2.png',
+                type: 'image/png',
+            }
+        ], {
+            container: '#blueimp-image-carousel-seeme',
+            carousel: true,
+			startSlideshow: true,
+			preloadRange: 2
+			
+        })
+		
+		
+		
 		 blueimp.Gallery([{
                 title: 'A picture of the TD Strip hardware',
                 href: 'http://DanielWeisberg.com/img/finhack.jpg',

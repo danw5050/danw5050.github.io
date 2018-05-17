@@ -6,8 +6,71 @@
 	<body>
 		SEEME Project
 		<br/>
+		
+		<p>The SeeMe project tracks elderly in their home to determine if there might be a problem.</p>
+		<ul>
+			<li> Hardware sensors located in each doorway determine where the person is located in the house</li>
+			<li> Flask Python app running in Azure saves this sensor data to Azure DB Table</li>
+			<li> Python app regulartly retrains Tensorflow model using the DB data which predicts the length of stay in the room</li>
+			<li> Flask app sends notifictation to the Xamarin mobile app about location in the room, and the prediction</li>
+			<li> If elderly person stays in a single room far beyond the prediction, Xamarin mobile app shows warning </li>
+		</ul>
+		A more descriptive explination can be found in the competition submission document <a href="./seeme.pdf">here</a>
+		<br/>
+		<br/>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/sQxBb7pk1mU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  <br/><br/>
+	  Front of Sensor
+	  <br/>
+	  <img src="img/seeme1.png" alt="SeeMe Picture" width="500" height="400">
+	  
+	  <br/><br/>
+	  Back of Sensor
+	  <br/>
+	  <img src="img/seeme2.png" alt="SeeMe Picture" width="500" height="400">
+	  
+	  <br/><br/>
+	  Mobile App Home
+	  <br/>
+	  <img src="img/seeme7.png" alt="SeeMe Picture" height="400">
+	  
+	  <br/><br/>
+	  Mobile App Analytics (Determines onset of Dementia, Insomnia, and other conditions)
+	  <br/>
+	  <img src="img/seeme8.png" alt="SeeMe Picture" height="400">
+	  
+	  <br/><br/>
+	  Mobile App History
+	  <br/>
+	  <img src="img/seeme10.png" alt="SeeMe Picture" height="400">
+	  
+	  <br/><br/>
+	  Mobile App Settings
+	  <br/>
+	  <img src="img/seeme11.png" alt="SeeMe Picture" height="400">
+	  
+	  <br/><br/>
+	  Software Architecture
+	  <br/>
+	  <img src="img/seeme3.png" alt="SeeMe Picture" width="500" height="400">
+	  
+	  <br/><br/>
+	  Master Sensor Architecture
+	  <br/>
+	  <img src="img/seeme4.png" alt="SeeMe Picture" width="500" height="400">
+	  
+	  <br/><br/>
+	  Slave Sensor Architecture
+	  <br/>
+	  <img src="img/seeme5.png" alt="SeeMe Picture" width="500" height="400">
+	  
+	  <br/><br/>
+	  The Lab (I was on an internship in Florida and had to get creative with little space and few tools)
+	  <br/>
+	  <img src="img/seeme6.png" alt="SeeMe Picture" width="500" height="400">
+	  
 	</body>
+	
 	
 	
 	
