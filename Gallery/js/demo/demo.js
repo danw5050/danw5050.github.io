@@ -423,6 +423,16 @@ $(function() {
 				type: 'video/mp4',
 				poster: 'http://envr.io/img/envr/ENVRv1.png'
             },
+				{
+                title: 'PCB Front',
+                href: 'img/envr3.jpg',
+                type: 'image/jpeg'
+            },
+				{
+                title: 'PCB Back',
+                href: 'img/envr4.jpg',
+                type: 'image/jpeg'
+            },
 			
 			{
                 title: 'Rendering',
