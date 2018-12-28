@@ -637,4 +637,39 @@ $(function() {
 			preloadRange: 2
         })
 
+		
+		
+		
+		blueimp.Gallery([	
+			{
+                              title: 'Demo Video',
+                href: 'https://dl.dropboxusercontent.com/s/305v79zigm0ibon/final%20video.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/genomify.png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/open1.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/open2.png',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/open3.png',
+                type: 'image/png'
+            }
+
+        ], {
+            container: '#blueimp-image-carousel-genomify',
+            carousel: true,
+			preloadRange: 2
+        })
+		
 })
