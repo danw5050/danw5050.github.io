@@ -31,10 +31,47 @@ $(function() {
 			
         })
 		
-		
-		
-		
-		
+
+        blueimp.Gallery([{
+            title: '',
+            poster: 'img/acc1.jpg',
+            href: 'https://dl.dropboxusercontent.com/s/flp84sgxbvopprb/accutrack.mp4',
+            type: 'video/mp4',
+        },
+        {
+            title: 'Accutrack Sensor',
+            href: 'img/acc2.jpg',
+            type: 'image/png',
+        },
+        {
+            title: 'Wiring up the sensor',
+            href: 'img/acc3.jpg',
+            type: 'image/png',
+        },
+        {
+            title: 'Testing flex sensor',
+            href: 'img/acc4.jpg',
+            type: 'image/png',
+        },
+        {
+            title: 'Web Portal',
+            href: 'img/acc5.png',
+            type: 'image/png',
+        },
+        {
+            title: 'Web Portal',
+            href: 'img/acc6.png',
+            type: 'image/png',
+        }
+    ], {
+        container: '#blueimp-image-carousel-accutrack',
+        carousel: true,
+        startSlideshow: true,
+        preloadRange: 2
+        
+    })
+
+
 		
 		
 	  blueimp.Gallery([{
