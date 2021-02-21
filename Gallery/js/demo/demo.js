@@ -205,7 +205,7 @@ $(function() {
 		
 			blueimp.Gallery([{
                title: 'Game Play video',
-                href: 'https://dl.dropboxusercontent.com/s/d447a4dm2eyr52j/Crypt%20Raider%20Mummy%27s%20Revenge%20Android%20App.mp4',
+                href: 'https://dl.dropboxusercontent.com/s/rkd3r5llsmxf8rd/Crypt%20Raider%20Mummy%27s%20Revenge%20Android%20App.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/crypt6.jpg'
             }
@@ -309,7 +309,7 @@ $(function() {
 		blueimp.Gallery([
 		 {
                title: 'Demo video',
-                href: 'https://dl.dropboxusercontent.com/s/bvobl9tvnlmtcci/Quickstart%20Apps.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/elidakd36ixcus2/Quickstart%20Apps.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/quickstart1.png'
             },
@@ -335,7 +335,7 @@ $(function() {
 			blueimp.Gallery([
 		 {
                title: 'Demo video',
-                href: 'https://dl.dropboxusercontent.com/s/z0abwznbpv04xgs/Speech%20to%20TextClipboard%20Pro%20Version.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/09tkozomt7hygyl/Speech%20to%20TextClipboard%20Pro%20Version.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/typer.png'
             }
@@ -366,7 +366,7 @@ $(function() {
 				blueimp.Gallery([
 		 {
                title: 'Demo video',
-                href: 'https://dl.dropboxusercontent.com/s/by5jl0dki6inrnr/Touchless%20%20Android%20App.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/b98dd5ys1o1qndf/Touchless%2B%20Android%20App.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/touchless1.png'
             },
@@ -396,7 +396,7 @@ $(function() {
 		blueimp.Gallery([
 		 {
                title: 'Demo video',
-                href: 'https://dl.dropboxusercontent.com/s/4tr57vvg95pfzwj/Robotic%20Arm%20Demo.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/u752j1pt215ab0x/Robotic%20Arm%20Demo%20using%20the%20EzBot.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/arm1.jpeg'
             },
@@ -422,7 +422,7 @@ $(function() {
 		blueimp.Gallery([
 		 {
                title: 'Velocity Pitch',
-                href: 'https://dl.dropboxusercontent.com/s/ycxdwvfgmtzdfvj/EZBot%20-%20Velocity%20Fund%20Finals%20%245K%20Fall%202015.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/1n0hmb3dmjcozxf/EZBot%20-%20Velocity%20Fund%20Finals%20%245K%20Fall%202015.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/ezbot4.png'
             },
@@ -548,7 +548,7 @@ $(function() {
 		blueimp.Gallery([	
 			{
                               title: 'Demo Video',
-                href: 'https://dl.dropboxusercontent.com/s/qkjfjnsdgso1obz/genesys%20emotion%20tracker%20%281%29.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/ipcqzebfweecw46/Genesys%20Hackathon.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/genesysdemo.png'
             }
@@ -583,7 +583,7 @@ $(function() {
 		blueimp.Gallery([	
 			{
                title: 'Door Opener Demo',
-                href: 'https://dl.dropboxusercontent.com/s/s6qdt8b1kl62s7n/Highschool%20DIY%20Automated%20Door%20%28Passkey%20and%20Camera%29.mp4?dl=0',
+                href: 'https://dl.dropboxusercontent.com/s/ce2xh68jtbxzun5/Highschool%20DIY%20Automated%20Door%20%28Passkey%20and%20Camera%29.mp4?dl=0',
 				type: 'video/mp4',
 				poster: 'img/dooropener.png'
             }
