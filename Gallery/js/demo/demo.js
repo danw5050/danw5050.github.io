@@ -709,4 +709,31 @@ $(function() {
 			preloadRange: 2
         })
 		
+		
+			blueimp.Gallery([	
+			{
+                              title: 'Demo Video',
+                href: 'https://dl.dropboxusercontent.com/s/tfk4r98yi16t5sl/Automation%20Anywhere%20Hackathon%20Submission.mp4?dl=0',
+				type: 'video/mp4',
+				poster: 'img/logoAnywhere.png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/packageAnywhere.jpg',
+                type: 'image/png'
+            }
+			,
+			{
+                title: '',
+                href: 'img/shipAnywhere.png',
+                type: 'image/png'
+            }
+
+        ], {
+            container: '#blueimp-image-carousel31',
+            carousel: true,
+			preloadRange: 2
+        })
+		
 })
