@@ -41,7 +41,50 @@
                 if (td) {
                     txtValue = td.textContent || td.innerText;
                     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        document.getElementById("result").innerHTML = "Column Name: " + td.innerText + "<br>" + "Details: " + tr[i].innerHTML;
+                        //document.getElementById("result").innerHTML = "Column Name: " + td.innerText + "<br>" + "Details: " + tr[i].innerHTML;
+
+						// Find the first row containing column names
+						var headerRow = Array.from(table.querySelectorAll("tr")).find(row =>
+							Array.from(row.querySelectorAll("td")).some(cell =>
+								cell.textContent.trim() === "Zip Code"
+							)
+						);
+
+						// Extract column names from the header row
+						var tableColumnNames = Array.from(headerRow.querySelectorAll("td")).map(cell =>
+							cell.textContent.trim()
+						);
+
+                        var details = "";
+                        for (var j = 0; j < tableColumnNames.length; j++) {
+                            details += tableColumnNames[j] + ": " + tr[i].getElementsByTagName("td")[j].innerText + "<br>";
+                        }
+                        document.getElementById("result").innerHTML = details;
+                        return;
+                    }
+                }
+            }
+            document.getElementById("result").innerHTML = "";
+        }
+		
+		function searchZip2() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("zipTable");
+            tr = table.getElementsByTagName("tr");
+
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        var tableColumnNames = table.getElementsByTagName("th");
+                        var details = "";
+                        for (var j = 0; j < tableColumnNames.length; j++) {
+                            details += tableColumnNames[j].innerText + ": " + tr[i].getElementsByTagName("td")[j].innerText + "<br>";
+                        }
+                        document.getElementById("result").innerHTML = details;
                         return;
                     }
                 }
@@ -49,8 +92,9 @@
             document.getElementById("result").innerHTML = "";
         }
 
+
         // Fetch CSV file and populate table
-        fetch('combined_data.csv')
+        fetch('https://danielweisberg.com/combined_data.csv')
             .then(response => response.text())
             .then(data => {
                 const rows = data.split('\n');
