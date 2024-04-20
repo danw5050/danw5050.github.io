@@ -29,20 +29,18 @@
     <div id="result"></div>
 
     <script>
-        function searchZip() {
-            var input, filter, table, tr, td, i, txtValue;
-            input = document.getElementById("searchInput");
-            filter = input.value.toUpperCase();
-            table = document.getElementById("zipTable");
-            tr = table.getElementsByTagName("tr");
+		function searchZip() {
+			var input, filter, table, tr, td, i, txtValue;
+			input = document.getElementById("searchInput");
+			filter = input.value.toUpperCase();
+			table = document.getElementById("zipTable");
+			tr = table.getElementsByTagName("tr");
 
-            for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[0];
-                if (td) {
-                    txtValue = td.textContent || td.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        //document.getElementById("result").innerHTML = "Column Name: " + td.innerText + "<br>" + "Details: " + tr[i].innerHTML;
-
+			for (i = 0; i < tr.length; i++) {
+				td = tr[i].getElementsByTagName("td")[0];
+				if (td) {
+					txtValue = td.textContent || td.innerText;
+					if (txtValue.toUpperCase().indexOf(filter) > -1) {
 						// Find the first row containing column names
 						var headerRow = Array.from(table.querySelectorAll("tr")).find(row =>
 							Array.from(row.querySelectorAll("td")).some(cell =>
@@ -55,42 +53,27 @@
 							cell.textContent.trim()
 						);
 
-                        var details = "";
-                        for (var j = 0; j < tableColumnNames.length; j++) {
-                            details += tableColumnNames[j] + ": " + tr[i].getElementsByTagName("td")[j].innerText + "<br>";
-                        }
-                        document.getElementById("result").innerHTML = details;
-                        return;
-                    }
-                }
-            }
-            document.getElementById("result").innerHTML = "";
-        }
-		
-		function searchZip2() {
-            var input, filter, table, tr, td, i, txtValue;
-            input = document.getElementById("searchInput");
-            filter = input.value.toUpperCase();
-            table = document.getElementById("zipTable");
-            tr = table.getElementsByTagName("tr");
+						var details = "";
+						for (var j = 0; j < tableColumnNames.length; j++) {
+							// Parse the column value as a float
+							const value = parseFloat(tr[i].getElementsByTagName("td")[j].innerText);
+							// Round the float to the nearest tenth
+							const roundedValue = Math.round(value * 10) / 10;
+							// Check if the original value has a percent unit
+							const hasPercent = tr[i].getElementsByTagName("td")[j].innerText.includes("%");
+							// Add the rounded value to the details string with percent unit if present
+							details += tableColumnNames[j] + ": " + (isNaN(roundedValue) ? tr[i].getElementsByTagName("td")[j].innerText : hasPercent ? roundedValue + "%" : roundedValue) + "<br>";
+						}
+						document.getElementById("result").innerHTML = details;
+						return;
+					}
+				}
+			}
+			document.getElementById("result").innerHTML = "";
+		}
 
-            for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[0];
-                if (td) {
-                    txtValue = td.textContent || td.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        var tableColumnNames = table.getElementsByTagName("th");
-                        var details = "";
-                        for (var j = 0; j < tableColumnNames.length; j++) {
-                            details += tableColumnNames[j].innerText + ": " + tr[i].getElementsByTagName("td")[j].innerText + "<br>";
-                        }
-                        document.getElementById("result").innerHTML = details;
-                        return;
-                    }
-                }
-            }
-            document.getElementById("result").innerHTML = "";
-        }
+
+
 
 
         // Fetch CSV file and populate table
